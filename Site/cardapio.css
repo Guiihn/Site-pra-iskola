@@ -1,0 +1,111 @@
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+nav .logo {
+    margin-right: auto;
+}
+nav .logo a {
+    display: block;
+}
+nav .logo img {
+    width: 100px; 
+    transition: transform 0.3s;
+}
+nav .logo img:hover {
+    transform: scale(1.1); 
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-grow: 1;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    display: block;
+    padding: 5px 10px;
+}
+nav ul li a img {
+    width: 80px;  
+    height: 80px; 
+    transition: transform 0.3s;
+}
+nav ul li a img:hover {
+    transform: scale(1.2);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+img.carrinho {
+    width: 100px;
+    transition: transform 0.3s;
+}
+.carrinho img:hover {
+    transform: scale(1.1); 
+}
+.pizza-item img {
+    width: 200px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.pizza-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pizza-item img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.pizza-details {
+    flex-grow: 1;
+}
+
+.pizza-details h3,
+.pizza-details p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.pizza-item button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    min-width: 150px;
+    margin-left: auto;
+    transition: transform 0.3s;
+}
+.pizza-item button:hover {
+    transform: scale(1.1); 
+}
